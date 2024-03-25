@@ -41,10 +41,10 @@ public class Game1A2BDaoImpl implements Game1A2BDao {
     }
 
     @Override
-    public Game1A2BLog createLog(Integer Record_ID, String GuessNumber) {
+    public Game1A2BLog createLog(Integer recordID, String guessNumber) {
         Game1A2BLog game1A2BLog = new Game1A2BLog();
-        game1A2BLog.setRecordID(Record_ID);
-        game1A2BLog.setGuess(GuessNumber);
+        game1A2BLog.setRecordID(recordID);
+        game1A2BLog.setGuess(guessNumber);
         return game1A2BLog;
     }
 

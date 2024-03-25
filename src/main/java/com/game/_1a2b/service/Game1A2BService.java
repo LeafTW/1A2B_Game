@@ -17,8 +17,8 @@ public class Game1A2BService {
         return game1A2BDao.createAnswer();
     }
 
-    public Game1A2BLog createLog(Integer Record_ID, String GuessNumber){
-        return game1A2BDao.createLog(Record_ID,GuessNumber);
+    public Game1A2BLog createLog(Integer recordID, String guessNumber){
+        return game1A2BDao.createLog(recordID,guessNumber);
     }
     public String AnalysisAnswer(Game1A2B game1A2B,String guessString){
         return game1A2BDao.AnalysisAnswer(game1A2B,guessString);

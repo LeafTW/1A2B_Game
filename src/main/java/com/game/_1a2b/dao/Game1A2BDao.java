@@ -10,9 +10,9 @@ import java.util.List;
 public interface Game1A2BDao {
     //creat
     Game1A2B createAnswer();
-    Game1A2BLog createLog(Integer Record_ID,String GuessNumber);
+    Game1A2BLog createLog(Integer recordID,String guessNumber);
 
-    String AnalysisAnswer(Game1A2B s,String GuessInt);
+    String AnalysisAnswer(Game1A2B game1A2B,String guessInt);
 
     //read
 
